@@ -1,0 +1,67 @@
+/* intro */
+
+.intro {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 50%;
+    width: 100%;
+    z-index: 10;
+
+    background-image: url("../image/wagon-background.png");
+}
+
+@media (min-width: 46.25em) {
+    .intro {
+        width: 50%;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+    }
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .intro__logo {
+        animation: App-logo-spin infinite 10s linear .2s;
+    }
+}
+
+/* Paragraph */
+
+.intro__paragraph {
+    color: #000000;
+    font-size: calc(50px + 2vmin);
+}
+
+.intro_surlign {
+    color: #fe0f15;
+    background-color: #ffe0e1;
+
+    border-radius: 3px;
+
+    padding: 2px 4px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break:clone;
+}
+
+/* Keyframe */
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -1,1 +1,19 @@
 /* Footer */
+
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 7%;
+    margin-bottom: 5px;
+}
+
+.footer__logo {
+    position: absolute;
+    left: 85%;
+
+    max-height: 100%;
+    max-width: 10%;
+}
